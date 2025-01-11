@@ -1,4 +1,4 @@
-package snakegame;
+package objects.snakegame;
 
 import objects.Apple;
 import objects.Snake;
@@ -27,10 +27,11 @@ public class SnakeGame extends JPanel implements ActionListener {
         setFocusable(true);
     }
 
+
     public void paint(Graphics g) {
-        g.setColor(color(5, 50, 10));//KAKAV E CVETA NA CANVASA NA IGRATA - V RGB FORMAT
+        g.setColor(color(40, 40, 40));//KAKAV E CVETA NA CANVASA NA IGRATA - V RGB FORMAT
         g.fillRect(0, 0, WIDTH * SCALE, HEIGHT * SCALE);
-        g.setColor(color(255, 216, 0));
+        g.setColor(color(255, 255, 255));
 
         for (int xx = 0; xx <= WIDTH * SCALE; xx += SCALE) {
             g.drawLine(xx, 0, xx, HEIGHT * SCALE);
