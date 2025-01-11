@@ -34,7 +34,7 @@ public class Snake {
 
 
       /*
-      Este codigo hace que si se cumple la condicion snake sea = que legth
+      Este codigo hace que si se cumple la condicion snake sea = que length
        for (int d = length - 1; d > 0; d--) {
            if ((snakeX[0] == snakeX[d]) & (snakeX[0] == snakeY[d])) length = d - 2;
        }
